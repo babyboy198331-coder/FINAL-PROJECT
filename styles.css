@@ -23,12 +23,6 @@ body {
     margin: 0 auto;
 }
 
-.nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .row__narrow {
     width: 100%;
     max-width: 1024px;
@@ -44,7 +38,7 @@ a{
     text-decoration: none;
 }
 
-img {
+image {
     width: 100%;
 }
 
@@ -88,4 +82,8 @@ p {
     letter-spacing: 0.025em;
 }
 
+#features .section__title,
+#pricing .section__title {
+    text-align: center;
+}
 
